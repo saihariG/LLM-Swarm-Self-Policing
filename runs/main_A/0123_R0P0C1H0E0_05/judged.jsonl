@@ -1,0 +1,33 @@
+{"seq": 40, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 67, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 109, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 113, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 117, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 178, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 248, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 255, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 317, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 350, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 377, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 483, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 491, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 509, "type": "dm", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 527, "type": "dm", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 537, "type": "dm", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 560, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 626, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 679, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 688, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 692, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 749, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 799, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 842, "type": "dm", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 863, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 867, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 871, "type": "post", "label": "promote", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 876, "type": "post", "label": "promote", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 910, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 928, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 930, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 936, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 940, "type": "post", "label": "call_out", "accused": ["agent_03"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}

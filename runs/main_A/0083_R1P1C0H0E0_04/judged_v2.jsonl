@@ -1,0 +1,5 @@
+{"seq": 43, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 769, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 894, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 898, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 902, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2, retried with 8000 tokens"}

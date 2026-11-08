@@ -1,0 +1,13 @@
+{"seq": 117, "type": "feedback", "label": "call_out", "accused": ["agent_07"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 152, "type": "feedback", "label": "call_out", "accused": ["agent_07"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 154, "type": "feedback", "label": "call_out", "accused": ["agent_07"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 159, "type": "feedback", "label": "call_out", "accused": ["agent_07"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 163, "type": "feedback", "label": "call_out", "accused": ["agent_07"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 231, "type": "feedback", "label": "call_out", "accused": ["agent_03"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 233, "type": "feedback", "label": "call_out", "accused": ["agent_03"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 442, "type": "feedback", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2, retried with 8000 tokens"}
+{"seq": 539, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 599, "type": "feedback", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 656, "type": "feedback", "label": "call_out", "accused": ["agent_07", "agent_03"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 801, "type": "feedback", "label": "call_out", "accused": ["agent_07"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 808, "type": "feedback", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}

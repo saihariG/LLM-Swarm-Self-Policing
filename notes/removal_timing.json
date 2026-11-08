@@ -1,0 +1,58 @@
+{
+ "main_A": {
+  "swarms": 40,
+  "first_removal_round": {
+   "3": 40
+  },
+  "both_seeds_removed": 40,
+  "round_both_seeds_gone": {
+   "4": 39,
+   "13": 1
+  }
+ },
+ "main_B": {
+  "swarms": 24,
+  "first_removal_round": {
+   "3": 1
+  },
+  "both_seeds_removed": 0,
+  "round_both_seeds_gone": {}
+ },
+ "main_C": {
+  "swarms": 10,
+  "first_removal_round": {
+   "3": 10
+  },
+  "both_seeds_removed": 10,
+  "round_both_seeds_gone": {
+   "4": 10
+  }
+ },
+ "ext_dose1": {
+  "swarms": 10,
+  "first_removal_round": {
+   "3": 7,
+   "4": 1,
+   "7": 1,
+   "11": 1
+  },
+  "both_seeds_removed": 8,
+  "round_both_seeds_gone": {
+   "4": 4,
+   "7": 1,
+   "11": 1,
+   "13": 1,
+   "14": 1
+  }
+ },
+ "ext_dose2": {
+  "swarms": 10,
+  "first_removal_round": {
+   "3": 10
+  },
+  "both_seeds_removed": 9,
+  "round_both_seeds_gone": {
+   "4": 9
+  }
+ }
+}

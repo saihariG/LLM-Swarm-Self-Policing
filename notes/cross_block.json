@@ -1,0 +1,159 @@
+{
+ "note": "Exploratory, across blocks that were not randomized against each other.",
+ "adoption": [
+  {
+   "cell": "R0P0C0H0E0",
+   "a": "A",
+   "b": "B",
+   "outcome": "Y1",
+   "mean_a": 0.95,
+   "mean_b": 0.9666666666666667,
+   "n_a": 20,
+   "n_b": 12,
+   "diff": -0.01666666666666672,
+   "lo": -0.07666666666666666,
+   "hi": 0.039999999999999925,
+   "p": 0.7317268273172682
+  },
+  {
+   "cell": "R0P1C1H1E0",
+   "a": "A",
+   "b": "B",
+   "outcome": "Y1",
+   "mean_a": 0.55,
+   "mean_b": 0.9916666666666667,
+   "n_a": 20,
+   "n_b": 12,
+   "diff": -0.44166666666666665,
+   "lo": -0.5933333333333334,
+   "hi": -0.29333333333333345,
+   "p": 0.00039996000399960006
+  },
+  {
+   "cell": "R0P1C1H1E1",
+   "a": "A",
+   "b": "B",
+   "outcome": "Y1",
+   "mean_a": 0.20000000000000004,
+   "mean_b": 0.9416666666666668,
+   "n_a": 20,
+   "n_b": 12,
+   "diff": -0.7416666666666667,
+   "lo": -0.8500000000000001,
+   "hi": -0.6333333333333334,
+   "p": 9.999000099990002e-05
+  },
+  {
+   "cell": "R1P1C1H1E0",
+   "a": "A",
+   "b": "B",
+   "outcome": "Y1",
+   "mean_a": 0.41,
+   "mean_b": 0.7666666666666666,
+   "n_a": 20,
+   "n_b": 12,
+   "diff": -0.35666666666666663,
+   "lo": -0.5033333333333333,
+   "hi": -0.19999999999999996,
+   "p": 0.000999900009999
+  },
+  {
+   "cell": "R1P1C1H1E1",
+   "a": "A",
+   "b": "B",
+   "outcome": "Y1",
+   "mean_a": 0.11000000000000001,
+   "mean_b": 0.575,
+   "n_a": 20,
+   "n_b": 12,
+   "diff": -0.46499999999999997,
+   "lo": -0.5800000000000001,
+   "hi": -0.3383333333333333,
+   "p": 9.999000099990002e-05
+  }
+ ],
+ "block_b": {
+  "R0P0C0H0E0": {
+   "Y1": 0.9667,
+   "exploit_credit_left": 63.5833,
+   "removals": 0.0
+  },
+  "R0P1C1H1E0": {
+   "Y1": 0.9917,
+   "exploit_credit_left": 50.4167,
+   "removals": 0.0
+  },
+  "R0P1C1H1E1": {
+   "Y1": 0.9417,
+   "exploit_credit_left": 40.5,
+   "removals": 0.0833
+  },
+  "R1P1C1H1E0": {
+   "Y1": 0.7667,
+   "exploit_credit_left": 27.8333,
+   "removals": 0.0
+  },
+  "R1P1C1H1E1": {
+   "Y1": 0.575,
+   "exploit_credit_left": 24.5,
+   "removals": 0.0
+  }
+ },
+ "h7_joiner": {
+  "outcome": "joiner_share",
+  "term": "ExM",
+  "estimate": -0.1899082871441343,
+  "lo": -0.2902168795445605,
+  "hi": -0.0899353777637817,
+  "p": 0.0023997600239976003,
+  "n": 128,
+  "cell_means": {
+   "B R0P1C1H1E0": 0.4507,
+   "B R0P1C1H1E1": 0.3989,
+   "B R1P1C1H1E0": 0.7548,
+   "B R1P1C1H1E1": 0.6924,
+   "A R0P1C1H1E0": 0.2194,
+   "A R0P1C1H1E1": 0.0682,
+   "A R1P1C1H1E0": 0.4579,
+   "A R1P1C1H1E1": 0.115
+  }
+ },
+ "regex": {
+  "main_A": {
+   "exploit": {
+    "with_signature": 1780,
+    "total": 1786,
+    "share": 0.9966405375139977
+   },
+   "honest": {
+    "with_signature": 0,
+    "total": 5428,
+    "share": 0.0
+   }
+  },
+  "main_B": {
+   "exploit": {
+    "with_signature": 1887,
+    "total": 1888,
+    "share": 0.9994703389830508
+   },
+   "honest": {
+    "with_signature": 0,
+    "total": 1725,
+    "share": 0.0
+   }
+  },
+  "main_C": {
+   "exploit": {
+    "with_signature": 121,
+    "total": 121,
+    "share": 1.0
+   },
+   "honest": {
+    "with_signature": 1,
+    "total": 114,
+    "share": 0.008771929824561403
+   }
+  }
+ }
+}

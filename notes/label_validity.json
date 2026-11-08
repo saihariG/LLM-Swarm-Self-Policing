@@ -1,0 +1,1055 @@
+{
+ "blocks": {
+  "main_A": {
+   "writers": {
+    "v1": {
+     "glm-5p3-flash": {
+      "agents": 890,
+      "exploit_if_promote": {
+       "n": 3,
+       "rate": 0.0
+      },
+      "exploit_if_no_promote": {
+       "n": 887,
+       "rate": 0.002254791431792559
+      },
+      "exploit_if_call_out": {
+       "n": 728,
+       "rate": 0.0013736263736263737
+      },
+      "exploit_if_no_call_out": {
+       "n": 162,
+       "rate": 0.006172839506172839
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 890,
+      "exploit_if_promote": {
+       "n": 21,
+       "rate": 0.9523809523809523
+      },
+      "exploit_if_no_promote": {
+       "n": 869,
+       "rate": 0.5304948216340621
+      },
+      "exploit_if_call_out": {
+       "n": 11,
+       "rate": 0.6363636363636364
+      },
+      "exploit_if_no_call_out": {
+       "n": 879,
+       "rate": 0.5392491467576792
+      }
+     },
+     "all": {
+      "agents": 1780,
+      "exploit_if_promote": {
+       "n": 24,
+       "rate": 0.8333333333333334
+      },
+      "exploit_if_no_promote": {
+       "n": 1756,
+       "rate": 0.2636674259681093
+      },
+      "exploit_if_call_out": {
+       "n": 739,
+       "rate": 0.010825439783491205
+      },
+      "exploit_if_no_call_out": {
+       "n": 1041,
+       "rate": 0.4562920268972142
+      }
+     }
+    },
+    "v2": {
+     "glm-5p3-flash": {
+      "agents": 890,
+      "exploit_if_promote": {
+       "n": 13,
+       "rate": 0.0
+      },
+      "exploit_if_no_promote": {
+       "n": 877,
+       "rate": 0.002280501710376283
+      },
+      "exploit_if_call_out": {
+       "n": 639,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 251,
+       "rate": 0.00796812749003984
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 890,
+      "exploit_if_promote": {
+       "n": 26,
+       "rate": 0.9615384615384616
+      },
+      "exploit_if_no_promote": {
+       "n": 864,
+       "rate": 0.5277777777777778
+      },
+      "exploit_if_call_out": {
+       "n": 6,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 884,
+       "rate": 0.5407239819004525
+      }
+     },
+     "all": {
+      "agents": 1780,
+      "exploit_if_promote": {
+       "n": 39,
+       "rate": 0.6410256410256411
+      },
+      "exploit_if_no_promote": {
+       "n": 1741,
+       "rate": 0.2630672027570362
+      },
+      "exploit_if_call_out": {
+       "n": 645,
+       "rate": 0.004651162790697674
+      },
+      "exploit_if_no_call_out": {
+       "n": 1135,
+       "rate": 0.42290748898678415
+      }
+     }
+    }
+   },
+   "names": {
+    "v1": {
+     "named": 1486,
+     "cheater_ever": 0.9892328398384926,
+     "cheater_before": 0.9892328398384926,
+     "baseline_before": 0.265926424405563,
+     "honest_named": 0.004710632570659489,
+     "roles": {
+      "seed": 1266,
+      "live": 213,
+      "honest": 7
+     },
+     "distinct_named": 354,
+     "distinct_by_role": {
+      "seed": 255,
+      "live": 92,
+      "honest": 7
+     }
+    },
+    "v2": {
+     "named": 1515,
+     "cheater_ever": 0.9894389438943895,
+     "cheater_before": 0.9894389438943895,
+     "baseline_before": 0.26243124312431243,
+     "honest_named": 0.0033003300330033004,
+     "roles": {
+      "seed": 1279,
+      "live": 231,
+      "honest": 5
+     },
+     "distinct_named": 343,
+     "distinct_by_role": {
+      "seed": 245,
+      "live": 93,
+      "honest": 5
+     }
+    }
+   },
+   "v1_vs_v2": {
+    "n": 4415,
+    "agreement": 0.8217440543601359,
+    "kappa": 0.7097265848244849,
+    "call_out_kappa": 0.7152365575283612,
+    "table": {
+     "call_out|call_out": 1506,
+     "call_out|other": 55,
+     "call_out|promote": 5,
+     "call_out|test_complaint": 319,
+     "other|call_out": 2,
+     "other|other": 477,
+     "other|promote": 3,
+     "other|test_complaint": 149,
+     "promote|other": 1,
+     "promote|promote": 27,
+     "promote|test_complaint": 1,
+     "test_complaint|call_out": 228,
+     "test_complaint|other": 15,
+     "test_complaint|promote": 9,
+     "test_complaint|test_complaint": 1618
+    }
+   }
+  },
+  "main_B": {
+   "writers": {
+    "v1": {
+     "single": {
+      "agents": 600,
+      "exploit_if_promote": {
+       "n": 9,
+       "rate": 1.0
+      },
+      "exploit_if_no_promote": {
+       "n": 591,
+       "rate": 0.8460236886632826
+      },
+      "exploit_if_call_out": {
+       "n": 4,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 596,
+       "rate": 0.8506711409395973
+      }
+     },
+     "all": {
+      "agents": 600,
+      "exploit_if_promote": {
+       "n": 9,
+       "rate": 1.0
+      },
+      "exploit_if_no_promote": {
+       "n": 591,
+       "rate": 0.8460236886632826
+      },
+      "exploit_if_call_out": {
+       "n": 4,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 596,
+       "rate": 0.8506711409395973
+      }
+     }
+    },
+    "v2": {
+     "single": {
+      "agents": 600,
+      "exploit_if_promote": {
+       "n": 11,
+       "rate": 1.0
+      },
+      "exploit_if_no_promote": {
+       "n": 589,
+       "rate": 0.8455008488964346
+      },
+      "exploit_if_call_out": {
+       "n": 4,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 596,
+       "rate": 0.8506711409395973
+      }
+     },
+     "all": {
+      "agents": 600,
+      "exploit_if_promote": {
+       "n": 11,
+       "rate": 1.0
+      },
+      "exploit_if_no_promote": {
+       "n": 589,
+       "rate": 0.8455008488964346
+      },
+      "exploit_if_call_out": {
+       "n": 4,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 596,
+       "rate": 0.8506711409395973
+      }
+     }
+    }
+   },
+   "names": {
+    "v1": {
+     "named": 2,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.16666666666666666,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 2
+     },
+     "distinct_named": 2,
+     "distinct_by_role": {
+      "seed": 2
+     }
+    },
+    "v2": {
+     "named": 1,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.16666666666666666,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 1
+     },
+     "distinct_named": 1,
+     "distinct_by_role": {
+      "seed": 1
+     }
+    }
+   },
+   "v1_vs_v2": {
+    "n": 74,
+    "agreement": 0.918918918918919,
+    "kappa": 0.8338945005611673,
+    "call_out_kappa": 0.7055702917771881,
+    "table": {
+     "call_out|call_out": 4,
+     "call_out|promote": 1,
+     "other|other": 49,
+     "other|promote": 1,
+     "promote|call_out": 2,
+     "promote|promote": 15,
+     "test_complaint|promote": 2
+    }
+   }
+  },
+  "main_C": {
+   "writers": {
+    "v1": {
+     "minimax-m3": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.19
+      },
+      "exploit_if_call_out": {
+       "n": 4,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 96,
+       "rate": 0.19791666666666666
+      }
+     },
+     "muse-spark-1.3": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 100,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 0,
+       "rate": null
+      }
+     },
+     "all": {
+      "agents": 200,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 200,
+       "rate": 0.095
+      },
+      "exploit_if_call_out": {
+       "n": 104,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 96,
+       "rate": 0.19791666666666666
+      }
+     }
+    },
+    "v2": {
+     "minimax-m3": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.19
+      },
+      "exploit_if_call_out": {
+       "n": 3,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 97,
+       "rate": 0.1958762886597938
+      }
+     },
+     "muse-spark-1.3": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 100,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 0,
+       "rate": null
+      }
+     },
+     "all": {
+      "agents": 200,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 200,
+       "rate": 0.095
+      },
+      "exploit_if_call_out": {
+       "n": 103,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 97,
+       "rate": 0.1958762886597938
+      }
+     }
+    }
+   },
+   "names": {
+    "v1": {
+     "named": 208,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.20753205128205127,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 195,
+      "live": 13
+     },
+     "distinct_named": 51,
+     "distinct_by_role": {
+      "seed": 40,
+      "live": 11
+     }
+    },
+    "v2": {
+     "named": 197,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.21023688663282572,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 184,
+      "live": 13
+     },
+     "distinct_named": 50,
+     "distinct_by_role": {
+      "seed": 39,
+      "live": 11
+     }
+    }
+   },
+   "v1_vs_v2": {
+    "n": 254,
+    "agreement": 0.8976377952755905,
+    "kappa": 0.6920925027974635,
+    "call_out_kappa": 0.7415447233259037,
+    "table": {
+     "call_out|call_out": 193,
+     "call_out|other": 5,
+     "call_out|test_complaint": 12,
+     "other|other": 5,
+     "other|test_complaint": 5,
+     "test_complaint|call_out": 4,
+     "test_complaint|test_complaint": 30
+    }
+   }
+  },
+  "ext_dose1": {
+   "writers": {
+    "v1": {
+     "glm-5p3-flash": {
+      "agents": 10,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 10,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 10,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 0,
+       "rate": null
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 90,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 90,
+       "rate": 0.6
+      },
+      "exploit_if_call_out": {
+       "n": 1,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 89,
+       "rate": 0.6067415730337079
+      }
+     },
+     "all": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.54
+      },
+      "exploit_if_call_out": {
+       "n": 11,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 89,
+       "rate": 0.6067415730337079
+      }
+     }
+    },
+    "v2": {
+     "glm-5p3-flash": {
+      "agents": 10,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 10,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 10,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 0,
+       "rate": null
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 90,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 90,
+       "rate": 0.6
+      },
+      "exploit_if_call_out": {
+       "n": 1,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 89,
+       "rate": 0.6067415730337079
+      }
+     },
+     "all": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.54
+      },
+      "exploit_if_call_out": {
+       "n": 11,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 89,
+       "rate": 0.6067415730337079
+      }
+     }
+    }
+   },
+   "names": {
+    "v1": {
+     "named": 42,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.44246031746031744,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 27,
+      "live": 15
+     },
+     "distinct_named": 27,
+     "distinct_by_role": {
+      "seed": 18,
+      "live": 9
+     }
+    },
+    "v2": {
+     "named": 41,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.47154471544715443,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 25,
+      "live": 16
+     },
+     "distinct_named": 27,
+     "distinct_by_role": {
+      "seed": 18,
+      "live": 9
+     }
+    }
+   },
+   "v1_vs_v2": {
+    "n": 58,
+    "agreement": 0.8793103448275862,
+    "kappa": 0.8086710650329876,
+    "call_out_kappa": 0.8963051251489869,
+    "table": {
+     "call_out|call_out": 26,
+     "call_out|test_complaint": 2,
+     "other|other": 10,
+     "other|test_complaint": 2,
+     "test_complaint|call_out": 1,
+     "test_complaint|other": 2,
+     "test_complaint|test_complaint": 15
+    }
+   }
+  },
+  "ext_dose2": {
+   "writers": {
+    "v1": {
+     "glm-5p3-flash": {
+      "agents": 20,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 20,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 19,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 1,
+       "rate": 0.0
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 80,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 80,
+       "rate": 0.3875
+      },
+      "exploit_if_call_out": {
+       "n": 2,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 78,
+       "rate": 0.38461538461538464
+      }
+     },
+     "all": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 100,
+       "rate": 0.31
+      },
+      "exploit_if_call_out": {
+       "n": 21,
+       "rate": 0.047619047619047616
+      },
+      "exploit_if_no_call_out": {
+       "n": 79,
+       "rate": 0.379746835443038
+      }
+     }
+    },
+    "v2": {
+     "glm-5p3-flash": {
+      "agents": 20,
+      "exploit_if_promote": {
+       "n": 1,
+       "rate": 0.0
+      },
+      "exploit_if_no_promote": {
+       "n": 19,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 20,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 0,
+       "rate": null
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 80,
+      "exploit_if_promote": {
+       "n": 0,
+       "rate": null
+      },
+      "exploit_if_no_promote": {
+       "n": 80,
+       "rate": 0.3875
+      },
+      "exploit_if_call_out": {
+       "n": 2,
+       "rate": 0.5
+      },
+      "exploit_if_no_call_out": {
+       "n": 78,
+       "rate": 0.38461538461538464
+      }
+     },
+     "all": {
+      "agents": 100,
+      "exploit_if_promote": {
+       "n": 1,
+       "rate": 0.0
+      },
+      "exploit_if_no_promote": {
+       "n": 99,
+       "rate": 0.31313131313131315
+      },
+      "exploit_if_call_out": {
+       "n": 22,
+       "rate": 0.045454545454545456
+      },
+      "exploit_if_no_call_out": {
+       "n": 78,
+       "rate": 0.38461538461538464
+      }
+     }
+    }
+   },
+   "names": {
+    "v1": {
+     "named": 53,
+     "cheater_ever": 0.9811320754716981,
+     "cheater_before": 0.9811320754716981,
+     "baseline_before": 0.3113207547169811,
+     "honest_named": 0.018867924528301886,
+     "roles": {
+      "seed": 39,
+      "live": 13,
+      "honest": 1
+     },
+     "distinct_named": 26,
+     "distinct_by_role": {
+      "seed": 19,
+      "live": 6,
+      "honest": 1
+     }
+    },
+    "v2": {
+     "named": 64,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.3229166666666667,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 51,
+      "live": 13
+     },
+     "distinct_named": 25,
+     "distinct_by_role": {
+      "seed": 19,
+      "live": 6
+     }
+    }
+   },
+   "v1_vs_v2": {
+    "n": 148,
+    "agreement": 0.8445945945945946,
+    "kappa": 0.7573424579412603,
+    "call_out_kappa": 0.844715757344525,
+    "table": {
+     "call_out|call_out": 53,
+     "call_out|test_complaint": 3,
+     "other|call_out": 1,
+     "other|other": 22,
+     "other|test_complaint": 11,
+     "test_complaint|call_out": 7,
+     "test_complaint|promote": 1,
+     "test_complaint|test_complaint": 50
+    }
+   }
+  },
+  "ext_vote": {
+   "writers": {
+    "v1": {
+     "glm-5p3-flash": {
+      "agents": 120,
+      "exploit_if_promote": {
+       "n": 2,
+       "rate": 0.0
+      },
+      "exploit_if_no_promote": {
+       "n": 118,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 102,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 18,
+       "rate": 0.0
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 120,
+      "exploit_if_promote": {
+       "n": 1,
+       "rate": 1.0
+      },
+      "exploit_if_no_promote": {
+       "n": 119,
+       "rate": 0.15966386554621848
+      },
+      "exploit_if_call_out": {
+       "n": 5,
+       "rate": 0.6
+      },
+      "exploit_if_no_call_out": {
+       "n": 115,
+       "rate": 0.14782608695652175
+      }
+     },
+     "all": {
+      "agents": 240,
+      "exploit_if_promote": {
+       "n": 3,
+       "rate": 0.3333333333333333
+      },
+      "exploit_if_no_promote": {
+       "n": 237,
+       "rate": 0.08016877637130802
+      },
+      "exploit_if_call_out": {
+       "n": 107,
+       "rate": 0.028037383177570093
+      },
+      "exploit_if_no_call_out": {
+       "n": 133,
+       "rate": 0.12781954887218044
+      }
+     }
+    },
+    "v2": {
+     "glm-5p3-flash": {
+      "agents": 120,
+      "exploit_if_promote": {
+       "n": 1,
+       "rate": 0.0
+      },
+      "exploit_if_no_promote": {
+       "n": 119,
+       "rate": 0.0
+      },
+      "exploit_if_call_out": {
+       "n": 107,
+       "rate": 0.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 13,
+       "rate": 0.0
+      }
+     },
+     "gpt-oss-120b": {
+      "agents": 120,
+      "exploit_if_promote": {
+       "n": 2,
+       "rate": 1.0
+      },
+      "exploit_if_no_promote": {
+       "n": 118,
+       "rate": 0.15254237288135594
+      },
+      "exploit_if_call_out": {
+       "n": 2,
+       "rate": 1.0
+      },
+      "exploit_if_no_call_out": {
+       "n": 118,
+       "rate": 0.15254237288135594
+      }
+     },
+     "all": {
+      "agents": 240,
+      "exploit_if_promote": {
+       "n": 3,
+       "rate": 0.6666666666666666
+      },
+      "exploit_if_no_promote": {
+       "n": 237,
+       "rate": 0.0759493670886076
+      },
+      "exploit_if_call_out": {
+       "n": 109,
+       "rate": 0.01834862385321101
+      },
+      "exploit_if_no_call_out": {
+       "n": 131,
+       "rate": 0.13740458015267176
+      }
+     }
+    }
+   },
+   "names": {
+    "v1": {
+     "named": 198,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.27441077441077444,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 163,
+      "live": 35
+     },
+     "distinct_named": 55,
+     "distinct_by_role": {
+      "seed": 46,
+      "live": 9
+     }
+    },
+    "v2": {
+     "named": 250,
+     "cheater_ever": 1.0,
+     "cheater_before": 1.0,
+     "baseline_before": 0.27266666666666667,
+     "honest_named": 0.0,
+     "roles": {
+      "seed": 210,
+      "live": 40
+     },
+     "distinct_named": 56,
+     "distinct_by_role": {
+      "seed": 47,
+      "live": 9
+     }
+    }
+   },
+   "v1_vs_v2": {
+    "n": 809,
+    "agreement": 0.8504326328800988,
+    "kappa": 0.7541644796817591,
+    "call_out_kappa": 0.7482066185431706,
+    "table": {
+     "call_out|call_out": 188,
+     "call_out|other": 3,
+     "call_out|promote": 1,
+     "call_out|test_complaint": 19,
+     "other|other": 130,
+     "other|test_complaint": 30,
+     "promote|other": 1,
+     "promote|promote": 2,
+     "test_complaint|call_out": 60,
+     "test_complaint|other": 7,
+     "test_complaint|test_complaint": 368
+    }
+   }
+  }
+ },
+ "hand_first_pass": {
+  "v1": {
+   "n": 150,
+   "agreement": 0.47333333333333333,
+   "kappa": 0.3037602820211516,
+   "call_out_kappa": 0.13708690330477363,
+   "table": {
+    "call_out|call_out": 12,
+    "call_out|other": 10,
+    "call_out|promote": 1,
+    "call_out|test_complaint": 8,
+    "other|other": 16,
+    "other|promote": 4,
+    "other|test_complaint": 3,
+    "promote|call_out": 16,
+    "promote|other": 5,
+    "promote|promote": 22,
+    "promote|test_complaint": 10,
+    "test_complaint|call_out": 12,
+    "test_complaint|other": 8,
+    "test_complaint|promote": 2,
+    "test_complaint|test_complaint": 21
+   }
+  },
+  "v2": {
+   "n": 150,
+   "agreement": 0.47333333333333333,
+   "kappa": 0.297153024911032,
+   "call_out_kappa": 0.026927784577723365,
+   "table": {
+    "call_out|call_out": 9,
+    "call_out|other": 7,
+    "call_out|promote": 1,
+    "call_out|test_complaint": 14,
+    "other|other": 17,
+    "other|promote": 3,
+    "other|test_complaint": 3,
+    "promote|call_out": 16,
+    "promote|other": 4,
+    "promote|promote": 21,
+    "promote|test_complaint": 12,
+    "test_complaint|call_out": 15,
+    "test_complaint|other": 2,
+    "test_complaint|promote": 2,
+    "test_complaint|test_complaint": 24
+   }
+  }
+ }
+}

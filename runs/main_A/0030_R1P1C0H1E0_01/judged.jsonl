@@ -1,0 +1,18 @@
+{"seq": 42, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 117, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 157, "type": "feedback", "label": "call_out", "accused": ["agent_12"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 181, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 240, "type": "post", "label": "other", "accused": [], "judge": "keyword filter"}
+{"seq": 300, "type": "feedback", "label": "call_out", "accused": ["agent_12", "agent_02"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 374, "type": "feedback", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 381, "type": "feedback", "label": "call_out", "accused": ["agent_12", "agent_02"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 445, "type": "feedback", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 627, "type": "feedback", "label": "call_out", "accused": ["agent_02"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 664, "type": "feedback", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 755, "type": "feedback", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 827, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 905, "type": "feedback", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 909, "type": "feedback", "label": "call_out", "accused": ["agent_12", "agent_02"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 911, "type": "feedback", "label": "call_out", "accused": ["agent_02", "agent_12"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 913, "type": "feedback", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}
+{"seq": 915, "type": "feedback", "label": "call_out", "accused": ["agent_02"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, rubric v2"}

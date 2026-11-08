@@ -1,0 +1,40 @@
+{
+ "n_swarms": 9,
+ "cell_counts": {
+  "R0P0C0H0E0": 3,
+  "R1P1C1H1E0": 3,
+  "R1P1C1H1E1": 3
+ },
+ "confirmatory": {
+  "H6a corners on adoption": {
+   "term": "DM minus HF",
+   "a": "R1P1C1H1E0",
+   "b": "R0P0C0H0E0",
+   "outcome": "Y1",
+   "mean_a": 0.6,
+   "mean_b": 1.0,
+   "n_a": 3,
+   "n_b": 3,
+   "diff": -0.4,
+   "lo": -0.4,
+   "hi": -0.4,
+   "p": 0.15422885572139303,
+   "p_holm": 0.30845771144278605
+  },
+  "H6b corners on policing": {
+   "term": "DM minus HF",
+   "a": "R1P1C1H1E0",
+   "b": "R0P0C0H0E0",
+   "outcome": "Y3",
+   "mean_a": 0.8666666666666667,
+   "mean_b": 0.13333333333333333,
+   "n_a": 3,
+   "n_b": 3,
+   "diff": 0.7333333333333334,
+   "lo": 0.4666666666666667,
+   "hi": 0.9333333333333333,
+   "p": 0.15422885572139303,
+   "p_holm": 0.30845771144278605
+  }
+ }
+}

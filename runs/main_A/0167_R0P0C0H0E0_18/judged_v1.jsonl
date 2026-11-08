@@ -1,0 +1,11 @@
+{"seq": 170, "type": "post", "label": "call_out", "accused": ["agent_10"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 239, "type": "post", "label": "other", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 428, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 553, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 561, "type": "post", "label": "call_out", "accused": ["agent_10", "agent_01"], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 714, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 772, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 783, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 887, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 892, "type": "post", "label": "call_out", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash"}
+{"seq": 894, "type": "post", "label": "test_complaint", "accused": [], "judge": "accounts/fireworks/models/deepseek-v4p1-flash, retried with 8000 tokens"}

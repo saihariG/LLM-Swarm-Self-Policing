@@ -1,0 +1,268 @@
+{
+ "note": "Exploratory, outside the Holm family. Block A, GLM agents, balanced factorial (E0, replicate below 6). public: board post labelled call_out. report: feedback labelled call_out.",
+ "n_swarms": 96,
+ "effects": {
+  "public_v2": {
+   "R": {
+    "term": "R",
+    "outcome": "public_v2",
+    "estimate": 0.15416666666666665,
+    "lo": 0.07916666666666668,
+    "hi": 0.23343749999999855,
+    "p": 0.0012998700129987,
+    "n": 96
+   },
+   "P": {
+    "term": "P",
+    "outcome": "public_v2",
+    "estimate": 0.18749999999999997,
+    "lo": 0.10833333333333331,
+    "hi": 0.2666666666666666,
+    "p": 0.00019998000199980003,
+    "n": 96
+   },
+   "C": {
+    "term": "C",
+    "outcome": "public_v2",
+    "estimate": 0.4875,
+    "lo": 0.4083333333333333,
+    "hi": 0.5666666666666667,
+    "p": 9.999000099990002e-05,
+    "n": 96
+   },
+   "H": {
+    "term": "H",
+    "outcome": "public_v2",
+    "estimate": 0.029166666666666702,
+    "lo": -0.04583333333333333,
+    "hi": 0.10416666666666667,
+    "p": 0.5643435656434357,
+    "n": 96
+   }
+  },
+  "report_v2": {
+   "R": {
+    "term": "R",
+    "outcome": "report_v2",
+    "estimate": 0.04166666666666667,
+    "lo": 0.0041666666666666935,
+    "hi": 0.07916666666666666,
+    "p": 0.0800919908009199,
+    "n": 96
+   },
+   "P": {
+    "term": "P",
+    "outcome": "report_v2",
+    "estimate": 0.09166666666666666,
+    "lo": 0.05416666666666667,
+    "hi": 0.12916666666666668,
+    "p": 9.999000099990002e-05,
+    "n": 96
+   },
+   "C": {
+    "term": "C",
+    "outcome": "report_v2",
+    "estimate": 0.03333333333333331,
+    "lo": -0.0041666666666666935,
+    "hi": 0.07083333333333333,
+    "p": 0.18298170182981702,
+    "n": 96
+   },
+   "H": {
+    "term": "H",
+    "outcome": "report_v2",
+    "estimate": 0.875,
+    "lo": 0.8373958333333332,
+    "hi": 0.9083333333333334,
+    "p": 9.999000099990002e-05,
+    "n": 96
+   }
+  },
+  "public_names": {
+   "R": {
+    "term": "R",
+    "outcome": "public_names",
+    "estimate": 0.2,
+    "lo": 0.13749999999999998,
+    "hi": 0.2666666666666667,
+    "p": 9.999000099990002e-05,
+    "n": 96
+   },
+   "P": {
+    "term": "P",
+    "outcome": "public_names",
+    "estimate": 0.041666666666666685,
+    "lo": -0.024999999999999994,
+    "hi": 0.10833333333333336,
+    "p": 0.3321667833216678,
+    "n": 96
+   },
+   "C": {
+    "term": "C",
+    "outcome": "public_names",
+    "estimate": 0.31666666666666665,
+    "lo": 0.25,
+    "hi": 0.3833333333333333,
+    "p": 9.999000099990002e-05,
+    "n": 96
+   },
+   "H": {
+    "term": "H",
+    "outcome": "public_names",
+    "estimate": -0.058333333333333355,
+    "lo": -0.125,
+    "hi": 0.008333333333333316,
+    "p": 0.15558444155584442,
+    "n": 96
+   }
+  },
+  "report_names": {
+   "R": {
+    "term": "R",
+    "outcome": "report_names",
+    "estimate": 0.045833333333333344,
+    "lo": -0.012500000000000018,
+    "hi": 0.10416666666666666,
+    "p": 0.19338066193380662,
+    "n": 96
+   },
+   "P": {
+    "term": "P",
+    "outcome": "report_names",
+    "estimate": 0.004166666666666645,
+    "lo": -0.05416666666666668,
+    "hi": 0.06249999999999998,
+    "p": 1.0,
+    "n": 96
+   },
+   "C": {
+    "term": "C",
+    "outcome": "report_names",
+    "estimate": 0.08749999999999997,
+    "lo": 0.029166666666666688,
+    "hi": 0.14583333333333326,
+    "p": 0.0136986301369863,
+    "n": 96
+   },
+   "H": {
+    "term": "H",
+    "outcome": "report_names",
+    "estimate": 0.6291666666666667,
+    "lo": 0.5708333333333333,
+    "hi": 0.6875,
+    "p": 9.999000099990002e-05,
+    "n": 96
+   }
+  }
+ },
+ "cell_means": {
+  "R0P0C0H0E0": {
+   "public_v2": 0.09,
+   "report_v2": 0.0,
+   "public_names": 0.02,
+   "report_names": 0.0
+  },
+  "R0P0C0H1E0": {
+   "public_v2": 0.1333,
+   "report_v2": 0.6333,
+   "public_names": 0.0667,
+   "report_names": 0.5333
+  },
+  "R0P0C1H0E0": {
+   "public_v2": 0.2667,
+   "report_v2": 0.0,
+   "public_names": 0.2333,
+   "report_names": 0.0
+  },
+  "R0P0C1H1E0": {
+   "public_v2": 0.4,
+   "report_v2": 0.8,
+   "public_names": 0.1333,
+   "report_names": 0.6333
+  },
+  "R0P1C0H0E0": {
+   "public_v2": 0.0667,
+   "report_v2": 0.0,
+   "public_names": 0.0333,
+   "report_names": 0.0
+  },
+  "R0P1C0H1E0": {
+   "public_v2": 0.0333,
+   "report_v2": 0.9667,
+   "public_names": 0.0,
+   "report_names": 0.4667
+  },
+  "R0P1C1H0E0": {
+   "public_v2": 0.6333,
+   "report_v2": 0.0,
+   "public_names": 0.4333,
+   "report_names": 0.0
+  },
+  "R0P1C1H1E0": {
+   "public_v2": 0.61,
+   "report_v2": 0.96,
+   "public_names": 0.2,
+   "report_names": 0.74
+  },
+  "R0P1C1H1E1": {
+   "public_v2": 0.62,
+   "report_v2": 0.95,
+   "public_names": 0.38,
+   "report_names": 0.95
+  },
+  "R1P0C0H0E0": {
+   "public_v2": 0.0333,
+   "report_v2": 0.0,
+   "public_names": 0.0333,
+   "report_names": 0.0
+  },
+  "R1P0C0H1E0": {
+   "public_v2": 0.0,
+   "report_v2": 0.8,
+   "public_names": 0.0333,
+   "report_names": 0.5333
+  },
+  "R1P0C1H0E0": {
+   "public_v2": 0.5667,
+   "report_v2": 0.0,
+   "public_names": 0.6667,
+   "report_names": 0.0
+  },
+  "R1P0C1H1E0": {
+   "public_v2": 0.7333,
+   "report_v2": 0.9,
+   "public_names": 0.5333,
+   "report_names": 0.8
+  },
+  "R1P1C0H0E0": {
+   "public_v2": 0.4,
+   "report_v2": 0.0,
+   "public_names": 0.2,
+   "report_names": 0.0
+  },
+  "R1P1C0H1E0": {
+   "public_v2": 0.2667,
+   "report_v2": 0.9667,
+   "public_names": 0.2333,
+   "report_names": 0.6333
+  },
+  "R1P1C1H0E0": {
+   "public_v2": 0.8,
+   "report_v2": 0.0,
+   "public_names": 0.5,
+   "report_names": 0.0
+  },
+  "R1P1C1H1E0": {
+   "public_v2": 0.83,
+   "report_v2": 0.94,
+   "public_names": 0.51,
+   "report_names": 0.79
+  },
+  "R1P1C1H1E1": {
+   "public_v2": 0.58,
+   "report_v2": 0.91,
+   "public_names": 0.47,
+   "report_names": 0.87
+  }
+ }
+}

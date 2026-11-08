@@ -1,0 +1,34 @@
+{
+ "R1": {
+  "swarms": 62,
+  "agents": 310,
+  "tried": 159,
+  "adopted": 158,
+  "subs": 2389,
+  "accepted": 687,
+  "live_honest": 309,
+  "live_exploit": 491,
+  "tried_share": 0.5129032258064516,
+  "adopted_share": 0.5096774193548387,
+  "subs_per_agent": 7.7064516129032254,
+  "accepted_per_agent": 2.2161290322580647,
+  "live_honest_per_swarm": 4.983870967741935,
+  "live_exploit_per_swarm": 7.919354838709677
+ },
+ "R0": {
+  "swarms": 76,
+  "agents": 380,
+  "tried": 289,
+  "adopted": 292,
+  "subs": 4605,
+  "accepted": 2939,
+  "live_honest": 3957,
+  "live_exploit": 1243,
+  "tried_share": 0.7605263157894737,
+  "adopted_share": 0.7684210526315789,
+  "subs_per_agent": 12.118421052631579,
+  "accepted_per_agent": 7.734210526315789,
+  "live_honest_per_swarm": 52.06578947368421,
+  "live_exploit_per_swarm": 16.355263157894736
+ }
+}

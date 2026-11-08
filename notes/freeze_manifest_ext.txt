@@ -1,0 +1,17 @@
+# Written by Claude at 2026-11-06T22:19:42-05:00, just before ext_vote started. Lists files that differ from notes/freeze_manifest.txt.
+# 27 other files still match it, including PREREG.md and analysis/report.py.
+# Blocks main_A, main_B, main_C, ext_dose1 and ext_dose2 ran the code in notes/freeze_manifest.txt.
+fbe8c5b9a5019d04e2dbec45dd09cdaeaa91424c4d5c6e14de1d0851e79bbb82  analysis/extensions.py  (new)
+3f979ec33b6cdab8dd762c93c1138e2c988397b827df574cd5ae5bfed687ff2a  analysis/judge.py  (changed)
+cb49d34cba4fa9c811629594cdb3f445f4f50b0b8712ab62e0c410496975bbe1  analysis/kappa.py  (new)
+75f70d18a15164f4c78ad8cec770bb75e4045f3014b338852b45f5b66ed29c6f  analysis/monitor_arm.py  (changed)
+5347260cb42666d4edb246a770d7ef40d34bb738ade723eafb3ed2c00b6e71c1  scripts/ledger.py  (changed)
+9c244b8a2b505bef9b4d52f5a6a1e4e7d77d3d1e57ef7ab9c075648b2dfa4d30  scripts/run_block.py  (changed)
+2c2f13d068fa31ec1bb2e808868864713e82fa1a0606bf9feaa66ff8c2559074  swarmlab/cells.py  (changed)
+2335ab7d548ee5c7da85ed14c93406b6498c8a5d3ea1d89fe269a28978d43a22  swarmlab/engine.py  (changed)
+174543024e6d6024a8f24fd1ceb2669540b5a2bdba16ff2e8b7f0a9226cf7758  swarmlab/mock.py  (changed)
+163d2821fba3860be1e10daa9922b8d004e5235dfa8fe57c97308a5fc301082b  swarmlab/prompts.py  (changed)
+298934fc6c57074f7839ef6fbb8998bc00de08eb0baf1ec8695775b308ee75b2  swarmlab/tools.py  (changed)
+253f26d9cc032c11b53498969ebe7aafbe2c46d9f87bc13d038c219f837e7e12  swarmlab/world.py  (changed)
+da0ed08831d5ebed510a2aea4cc5f8d1bc80484672ff2d07a2a50f9e7e98f365  tests/test_analysis.py  (changed)
+d82c13e68ef824b4eab8ef16d3ac88f17ddf20bc28631907362408e31e941b2f  tests/test_swarm.py  (changed)
