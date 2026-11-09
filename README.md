@@ -4,6 +4,9 @@ Code, logs and analysis for a randomized study of when swarms of LLM agents poli
 
 The study holds the population of agents fixed and randomizes the institutions around a swarm: rivalry, public work, the legitimacy of the channel, a route to humans and enforcement. Two scripted agents cheat on a flawed scorer in every swarm, so every swarm gets the same stimulus. A strict verifier gives ground truth for cheating without any LLM judge.
 
+<img width="2400" height="1350" alt="project_image" src="https://github.com/user-attachments/assets/cd95a6cf-66eb-4026-be29-7d84e8264161" />
+
+
 ## Layout
 - `swarmlab/`: tasks, sandbox, flawed scorer, strict verifier, swarm world, scripted confederates, LLM backends, round loop
 - `scripts/run_block.py`: runs a block of swarms from a fixed random schedule
