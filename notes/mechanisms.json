@@ -1,0 +1,140 @@
+{
+ "note": "Exploratory, from the logs only. The timeline compares blocks that were not randomized against each other.",
+ "pool": {
+  "R0": {
+   "swarms": 76,
+   "honest_accepted_per_live": 5.2065789473684205,
+   "late_blocks_per_live": 0.0,
+   "late_blocks_gpt_oss": 0.0,
+   "late_blocks_glm": 0.0
+  },
+  "R1": {
+   "swarms": 62,
+   "honest_accepted_per_live": 0.4983870967741935,
+   "late_blocks_per_live": 5.425806451612903,
+   "late_blocks_gpt_oss": 3.9709677419354836,
+   "late_blocks_glm": 6.880645161290323,
+   "solvable_taken": 1.0,
+   "honest_agent_share": 0.6794354838709677,
+   "exhausted_share": 1.0,
+   "exhausted_round_median": 6.0
+  }
+ },
+ "removals": {
+  "swarms": 40,
+  "seeds": 80,
+  "live": 22,
+  "live_by_family": {
+   "gpt-oss": 21,
+   "glm": 1
+  },
+  "honest": 0,
+  "seed_a_gone_before_reminder": 1.0
+ },
+ "timeline": {
+  "R0P1C1H1E0": {
+   "A": {
+    "swarms": 20,
+    "agents": 100,
+    "cumulative": [
+     0.0,
+     0.0,
+     0.0,
+     0.04,
+     0.05,
+     0.07,
+     0.1,
+     0.19,
+     0.24,
+     0.29,
+     0.35,
+     0.41,
+     0.46,
+     0.5,
+     0.55
+    ],
+    "by_round_3": 0.0,
+    "later_among_clean_at_3": 0.55
+   },
+   "B": {
+    "swarms": 12,
+    "agents": 120,
+    "cumulative": [
+     0.0,
+     0.0,
+     0.016666666666666666,
+     0.075,
+     0.09166666666666666,
+     0.13333333333333333,
+     0.23333333333333334,
+     0.4166666666666667,
+     0.6,
+     0.75,
+     0.8916666666666667,
+     0.95,
+     0.9666666666666667,
+     0.975,
+     0.9916666666666667
+    ],
+    "by_round_3": 0.016666666666666666,
+    "later_among_clean_at_3": 0.9915254237288136
+   },
+   "callout_swarms": 0.95,
+   "median_first_callout": 3,
+   "callout_by_round_3": 0.5,
+   "callout_by_round_4": 0.65
+  },
+  "R1P1C1H1E0": {
+   "A": {
+    "swarms": 20,
+    "agents": 100,
+    "cumulative": [
+     0.0,
+     0.0,
+     0.03,
+     0.03,
+     0.03,
+     0.03,
+     0.07,
+     0.07,
+     0.11,
+     0.18,
+     0.2,
+     0.23,
+     0.26,
+     0.35,
+     0.41
+    ],
+    "by_round_3": 0.03,
+    "later_among_clean_at_3": 0.3917525773195876
+   },
+   "B": {
+    "swarms": 12,
+    "agents": 120,
+    "cumulative": [
+     0.0,
+     0.0,
+     0.058333333333333334,
+     0.1,
+     0.11666666666666667,
+     0.25,
+     0.325,
+     0.39166666666666666,
+     0.4166666666666667,
+     0.475,
+     0.5666666666666667,
+     0.65,
+     0.6916666666666667,
+     0.75,
+     0.7666666666666667
+    ],
+    "by_round_3": 0.058333333333333334,
+    "later_among_clean_at_3": 0.7522123893805309
+   },
+   "callout_swarms": 1.0,
+   "median_first_callout": 3.0,
+   "callout_by_round_3": 0.65,
+   "callout_by_round_4": 0.75
+  }
+ }
+}

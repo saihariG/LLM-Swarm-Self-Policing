@@ -1,0 +1,50 @@
+{
+ "main_A": {
+  "swarms": 178,
+  "calls": 97327,
+  "prompt_tokens": 691136164,
+  "cached_tokens": 266643252,
+  "completion_tokens": 37751045,
+  "errors": 72
+ },
+ "main_B": {
+  "swarms": 60,
+  "calls": 35696,
+  "prompt_tokens": 238343612,
+  "cached_tokens": 0,
+  "completion_tokens": 9768297,
+  "errors": 0
+ },
+ "main_C": {
+  "swarms": 20,
+  "calls": 10129,
+  "prompt_tokens": 84907723,
+  "cached_tokens": 74798143,
+  "completion_tokens": 6201390,
+  "errors": 0
+ },
+ "ext_dose1": {
+  "swarms": 10,
+  "calls": 5886,
+  "prompt_tokens": 46488582,
+  "cached_tokens": 3183520,
+  "completion_tokens": 2278602,
+  "errors": 0
+ },
+ "ext_dose2": {
+  "swarms": 10,
+  "calls": 5757,
+  "prompt_tokens": 45633052,
+  "cached_tokens": 6681272,
+  "completion_tokens": 2494565,
+  "errors": 0
+ },
+ "ext_vote": {
+  "swarms": 24,
+  "calls": 13122,
+  "prompt_tokens": 98312928,
+  "cached_tokens": 36699652,
+  "completion_tokens": 5788911,
+  "errors": 15
+ }
+}

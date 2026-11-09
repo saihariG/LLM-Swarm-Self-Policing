@@ -41,14 +41,21 @@ class World:
         self.round = 0
         self.step = 0
 
-        n = cfg.n_live + 3
+        extra = 1 if cfg.scripted_reporter else 0  # tier 1 arm: the reporter takes a fourth scripted slot
+        n = cfg.n_live + 3 + extra
         names = [f"agent_{i:02d}" for i in range(1, n + 1)]
         self.rng.shuffle(names)
         self.seed_a, self.seed_b, self.honest = names[0], names[1], names[2]
-        self.live = sorted(names[3:])
+        self.reporter = names[3] if extra else None
+        self.live = sorted(names[3 + extra:])
         self.names = sorted(names)
         self.role = {a: "live" for a in self.live}
         self.role.update({self.seed_a: "seed_a", self.seed_b: "seed_b", self.honest: "honest"})
+        if self.reporter:
+            self.role[self.reporter] = "reporter"
+        self.audit_rng = random.Random(seed * 7 + 13)  # own stream, so the swarm's other draws do not move
+        self.reported: set[str] = set()
+        self.report_cursor = 0
 
         self.shared = bool(cell.rivalry)
         pool = (pick_tasks(cfg.shared_solvable, cfg.shared_impossible) if self.shared
@@ -312,6 +319,8 @@ class World:
     def end_round(self) -> None:
         if self.cell.enforcement:
             self._enforce()
+        if self.cfg.random_audits:
+            self._random_audits()
         if self.cfg.peer_vote:
             self._tally_votes()
         self.log("round_end", scores={a: self.score_of(a) for a in self.names})
@@ -327,11 +336,17 @@ class World:
                 audited.add(target)
                 self._audit(target, item["agent"])
 
+    def _random_audits(self) -> None:
+        """Tier 1 arm: organizers audit random active agents, with no report needed."""
+        pool = [a for a in self.names if a not in self.suspended and a != self.reporter]
+        for target in self.audit_rng.sample(pool, min(self.cfg.random_audits, len(pool))):
+            self._audit(target, "organizers")
+
     def _audit(self, target: str, reporter: str) -> None:
         subs = [s for s in self.submissions if s.agent == target and s.accepted and not s.voided]
         bad = [s for s in subs if self._label(s) == "exploit"]
         self.log("audit", target=target, target_role=self.role[target], reporter=reporter,
-                 reporter_role=self.role[reporter], checked=len(subs), bad=len(bad))
+                 reporter_role=self.role.get(reporter, reporter), checked=len(subs), bad=len(bad))
         if not bad:
             return
         for sub in bad:

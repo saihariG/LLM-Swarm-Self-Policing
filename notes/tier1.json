@@ -1,0 +1,539 @@
+{
+ "note": "Exploratory tier 1 arms, across blocks that were not randomized against each other.",
+ "random": {
+  "R0P1C1H1E0": {
+   "random_audits": {
+    "swarms": 12,
+    "Y1": 0.9083333333333335,
+    "exploit_share": 0.2990127683991849,
+    "joiner_share": 0.2990127683991849,
+    "exploit_credit_left": 7.666666666666667,
+    "Y3": 0.0,
+    "seeds_removed": 1.9166666666666667,
+    "live_removed": 6.0,
+    "honest_removed": 0.0,
+    "audits": 30.0,
+    "seed_a_gone_before_reminder": 0.4166666666666667
+   },
+   "block_b_no_audits": {
+    "swarms": 12,
+    "Y1": 0.9916666666666667,
+    "exploit_share": 0.45074086584356715,
+    "joiner_share": 0.45074086584356715,
+    "exploit_credit_left": 50.416666666666664,
+    "Y3": 0.008333333333333333,
+    "seeds_removed": 0.0,
+    "live_removed": 0.0,
+    "honest_removed": 0.0,
+    "audits": 0.0,
+    "seed_a_gone_before_reminder": 0.0
+   },
+   "block_b_report_audits": {
+    "swarms": 12,
+    "Y1": 0.9416666666666668,
+    "exploit_share": 0.39894153615467903,
+    "joiner_share": 0.39894153615467903,
+    "exploit_credit_left": 40.5,
+    "Y3": 0.008333333333333333,
+    "seeds_removed": 0.08333333333333333,
+    "live_removed": 0.0,
+    "honest_removed": 0.0,
+    "audits": 0.08333333333333333,
+    "seed_a_gone_before_reminder": 0.08333333333333333
+   },
+   "vs_no_audits": {
+    "Y1": {
+     "outcome": "Y1",
+     "mean_a": 0.9083333333333335,
+     "mean_b": 0.9916666666666667,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.08333333333333315,
+     "lo": -0.125,
+     "hi": -0.033333333333333326,
+     "p": 0.0058994100589941
+    },
+    "exploit_share": {
+     "outcome": "exploit_share",
+     "mean_a": 0.2990127683991849,
+     "mean_b": 0.45074086584356715,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.15172809744438226,
+     "lo": -0.18961230677661495,
+     "hi": -0.11309344814367671,
+     "p": 9.999000099990002e-05
+    },
+    "joiner_share": {
+     "outcome": "joiner_share",
+     "mean_a": 0.2990127683991849,
+     "mean_b": 0.45074086584356715,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.15172809744438226,
+     "lo": -0.18961230677661495,
+     "hi": -0.11309344814367671,
+     "p": 9.999000099990002e-05
+    },
+    "exploit_credit_left": {
+     "outcome": "exploit_credit_left",
+     "mean_a": 7.666666666666667,
+     "mean_b": 50.416666666666664,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -42.75,
+     "lo": -48.41666666666667,
+     "hi": -37.5,
+     "p": 9.999000099990002e-05
+    }
+   },
+   "vs_report_audits": {
+    "Y1": {
+     "outcome": "Y1",
+     "mean_a": 0.9083333333333335,
+     "mean_b": 0.9416666666666668,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.033333333333333215,
+     "lo": -0.08333333333333337,
+     "hi": 0.02499999999999991,
+     "p": 0.40855914408559146
+    },
+    "exploit_share": {
+     "outcome": "exploit_share",
+     "mean_a": 0.2990127683991849,
+     "mean_b": 0.39894153615467903,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.09992876775549414,
+     "lo": -0.13207490761316729,
+     "hi": -0.06627007021450938,
+     "p": 9.999000099990002e-05
+    },
+    "joiner_share": {
+     "outcome": "joiner_share",
+     "mean_a": 0.2990127683991849,
+     "mean_b": 0.39894153615467903,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.09992876775549414,
+     "lo": -0.13207490761316729,
+     "hi": -0.06627007021450938,
+     "p": 9.999000099990002e-05
+    },
+    "exploit_credit_left": {
+     "outcome": "exploit_credit_left",
+     "mean_a": 7.666666666666667,
+     "mean_b": 40.5,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -32.833333333333336,
+     "lo": -36.666666666666664,
+     "hi": -29.0,
+     "p": 9.999000099990002e-05
+    }
+   }
+  },
+  "R1P1C1H1E0": {
+   "random_audits": {
+    "swarms": 12,
+    "Y1": 0.6333333333333333,
+    "exploit_share": 0.5765547796430149,
+    "joiner_share": 0.5765547796430149,
+    "exploit_credit_left": 2.75,
+    "Y3": 0.0,
+    "seeds_removed": 2.0,
+    "live_removed": 5.166666666666667,
+    "honest_removed": 0.0,
+    "audits": 30.0,
+    "seed_a_gone_before_reminder": 0.4166666666666667
+   },
+   "block_b_no_audits": {
+    "swarms": 12,
+    "Y1": 0.7666666666666666,
+    "exploit_share": 0.7548085654492978,
+    "joiner_share": 0.7548085654492978,
+    "exploit_credit_left": 27.833333333333332,
+    "Y3": 0.0,
+    "seeds_removed": 0.0,
+    "live_removed": 0.0,
+    "honest_removed": 0.0,
+    "audits": 0.0,
+    "seed_a_gone_before_reminder": 0.0
+   },
+   "block_b_report_audits": {
+    "swarms": 12,
+    "Y1": 0.575,
+    "exploit_share": 0.6924092373005418,
+    "joiner_share": 0.6924092373005418,
+    "exploit_credit_left": 24.5,
+    "Y3": 0.016666666666666666,
+    "seeds_removed": 0.0,
+    "live_removed": 0.0,
+    "honest_removed": 0.0,
+    "audits": 0.0,
+    "seed_a_gone_before_reminder": 0.0
+   },
+   "vs_no_audits": {
+    "Y1": {
+     "outcome": "Y1",
+     "mean_a": 0.6333333333333333,
+     "mean_b": 0.7666666666666666,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.1333333333333333,
+     "lo": -0.3335416666666667,
+     "hi": 0.050000000000000155,
+     "p": 0.25537446255374463
+    },
+    "exploit_share": {
+     "outcome": "exploit_share",
+     "mean_a": 0.5765547796430149,
+     "mean_b": 0.7548085654492978,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.17825378580628282,
+     "lo": -0.3431196246336659,
+     "hi": -0.03516455497976404,
+     "p": 0.014898510148985102
+    },
+    "joiner_share": {
+     "outcome": "joiner_share",
+     "mean_a": 0.5765547796430149,
+     "mean_b": 0.7548085654492978,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.17825378580628282,
+     "lo": -0.3431196246336659,
+     "hi": -0.03516455497976404,
+     "p": 0.014898510148985102
+    },
+    "exploit_credit_left": {
+     "outcome": "exploit_credit_left",
+     "mean_a": 2.75,
+     "mean_b": 27.833333333333332,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -25.083333333333332,
+     "lo": -27.0,
+     "hi": -23.0,
+     "p": 9.999000099990002e-05
+    }
+   },
+   "vs_report_audits": {
+    "Y1": {
+     "outcome": "Y1",
+     "mean_a": 0.6333333333333333,
+     "mean_b": 0.575,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": 0.05833333333333335,
+     "lo": -0.1499999999999999,
+     "hi": 0.25,
+     "p": 0.6453354664533547
+    },
+    "exploit_share": {
+     "outcome": "exploit_share",
+     "mean_a": 0.5765547796430149,
+     "mean_b": 0.6924092373005418,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.11585445765752689,
+     "lo": -0.2908385194805431,
+     "hi": 0.034765014926699526,
+     "p": 0.23847615238476152
+    },
+    "joiner_share": {
+     "outcome": "joiner_share",
+     "mean_a": 0.5765547796430149,
+     "mean_b": 0.6924092373005418,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -0.11585445765752689,
+     "lo": -0.2908385194805431,
+     "hi": 0.034765014926699526,
+     "p": 0.23847615238476152
+    },
+    "exploit_credit_left": {
+     "outcome": "exploit_credit_left",
+     "mean_a": 2.75,
+     "mean_b": 24.5,
+     "n_a": 12.0,
+     "n_b": 12.0,
+     "diff": -21.75,
+     "lo": -24.41875,
+     "hi": -19.0,
+     "p": 9.999000099990002e-05
+    }
+   }
+  }
+ },
+ "reporter": {
+  "summary": {
+   "reporter": {
+    "swarms": 12,
+    "Y1": 0.6296296296296297,
+    "exploit_share": 0.652357151949082,
+    "joiner_share": 0.652357151949082,
+    "exploit_credit_left": 14.166666666666666,
+    "Y3": 0.009259259259259259,
+    "seeds_removed": 2.0,
+    "live_removed": 0.25,
+    "honest_removed": 0.0,
+    "audits": 2.3333333333333335,
+    "seed_a_gone_before_reminder": 1.0
+   },
+   "no_police": {
+    "swarms": 12,
+    "Y1": 0.575,
+    "exploit_share": 0.6924092373005418,
+    "joiner_share": 0.6924092373005418,
+    "exploit_credit_left": 24.5,
+    "Y3": 0.016666666666666666,
+    "seeds_removed": 0.0,
+    "live_removed": 0.0,
+    "honest_removed": 0.0,
+    "audits": 0.0,
+    "seed_a_gone_before_reminder": 0.0
+   },
+   "one_glm": {
+    "swarms": 10,
+    "Y1": 0.5999999999999999,
+    "exploit_share": 0.61542156114925,
+    "joiner_share": 0.6270314682699929,
+    "exploit_credit_left": 10.1,
+    "Y3": 1.0,
+    "seeds_removed": 1.8,
+    "live_removed": 0.9,
+    "honest_removed": 0.0,
+    "audits": 3.4,
+    "seed_a_gone_before_reminder": 0.8
+   },
+   "five_glm": {
+    "swarms": 20,
+    "Y1": 0.11000000000000001,
+    "exploit_share": 0.09011904761904763,
+    "joiner_share": 0.11500000000000002,
+    "exploit_credit_left": 0.25,
+    "Y3": 0.96,
+    "seeds_removed": 2.0,
+    "live_removed": 0.35,
+    "honest_removed": 0.0,
+    "audits": 16.7,
+    "seed_a_gone_before_reminder": 1.0
+   }
+  },
+  "vs_no_police": {
+   "Y1": {
+    "outcome": "Y1",
+    "mean_a": 0.6296296296296297,
+    "mean_b": 0.575,
+    "n_a": 12.0,
+    "n_b": 12.0,
+    "diff": 0.054629629629629695,
+    "lo": -0.11203703703703694,
+    "hi": 0.20925925925925914,
+    "p": 0.5382461753824618
+   },
+   "exploit_share": {
+    "outcome": "exploit_share",
+    "mean_a": 0.652357151949082,
+    "mean_b": 0.6924092373005418,
+    "n_a": 12.0,
+    "n_b": 12.0,
+    "diff": -0.040052085351459876,
+    "lo": -0.17047764021273024,
+    "hi": 0.07436951571307876,
+    "p": 0.5588441155884412
+   },
+   "joiner_share": {
+    "outcome": "joiner_share",
+    "mean_a": 0.652357151949082,
+    "mean_b": 0.6924092373005418,
+    "n_a": 12.0,
+    "n_b": 12.0,
+    "diff": -0.040052085351459876,
+    "lo": -0.17047764021273024,
+    "hi": 0.07436951571307876,
+    "p": 0.5588441155884412
+   },
+   "exploit_credit_left": {
+    "outcome": "exploit_credit_left",
+    "mean_a": 14.166666666666666,
+    "mean_b": 24.5,
+    "n_a": 12.0,
+    "n_b": 12.0,
+    "diff": -10.333333333333334,
+    "lo": -15.249999999999998,
+    "hi": -5.833333333333332,
+    "p": 0.0004999500049995
+   }
+  },
+  "vs_one_glm": {
+   "Y1": {
+    "outcome": "Y1",
+    "mean_a": 0.6296296296296297,
+    "mean_b": 0.5999999999999999,
+    "n_a": 12.0,
+    "n_b": 10.0,
+    "diff": 0.029629629629629783,
+    "lo": -0.1833333333333334,
+    "hi": 0.24263888888888832,
+    "p": 0.8532146785321468
+   },
+   "exploit_share": {
+    "outcome": "exploit_share",
+    "mean_a": 0.652357151949082,
+    "mean_b": 0.61542156114925,
+    "n_a": 12.0,
+    "n_b": 10.0,
+    "diff": 0.036935590799832,
+    "lo": -0.13081836173110928,
+    "hi": 0.2057655183392747,
+    "p": 0.6839316068393161
+   },
+   "joiner_share": {
+    "outcome": "joiner_share",
+    "mean_a": 0.652357151949082,
+    "mean_b": 0.6270314682699929,
+    "n_a": 12.0,
+    "n_b": 10.0,
+    "diff": 0.02532568367908905,
+    "lo": -0.14347950349157831,
+    "hi": 0.19567962133123326,
+    "p": 0.7828217178282172
+   },
+   "exploit_credit_left": {
+    "outcome": "exploit_credit_left",
+    "mean_a": 14.166666666666666,
+    "mean_b": 10.1,
+    "n_a": 12.0,
+    "n_b": 10.0,
+    "diff": 4.066666666666666,
+    "lo": -1.6833333333333336,
+    "hi": 9.566666666666666,
+    "p": 0.20187981201879812
+   }
+  },
+  "vs_five_glm": {
+   "Y1": {
+    "outcome": "Y1",
+    "mean_a": 0.6296296296296297,
+    "mean_b": 0.11000000000000001,
+    "n_a": 12.0,
+    "n_b": 20.0,
+    "diff": 0.5196296296296297,
+    "lo": 0.35481481481481475,
+    "hi": 0.6722407407407404,
+    "p": 9.999000099990002e-05
+   },
+   "exploit_share": {
+    "outcome": "exploit_share",
+    "mean_a": 0.652357151949082,
+    "mean_b": 0.09011904761904763,
+    "n_a": 12.0,
+    "n_b": 20.0,
+    "diff": 0.5622381043300343,
+    "lo": 0.42926663045776603,
+    "hi": 0.680361808107664,
+    "p": 9.999000099990002e-05
+   },
+   "joiner_share": {
+    "outcome": "joiner_share",
+    "mean_a": 0.652357151949082,
+    "mean_b": 0.11500000000000002,
+    "n_a": 12.0,
+    "n_b": 20.0,
+    "diff": 0.537357151949082,
+    "lo": 0.39644272797056973,
+    "hi": 0.6631474518717024,
+    "p": 9.999000099990002e-05
+   },
+   "exploit_credit_left": {
+    "outcome": "exploit_credit_left",
+    "mean_a": 14.166666666666666,
+    "mean_b": 0.25,
+    "n_a": 12.0,
+    "n_b": 20.0,
+    "diff": 13.916666666666666,
+    "lo": 9.699583333333333,
+    "hi": 17.78333333333333,
+    "p": 9.999000099990002e-05
+   }
+  }
+ },
+ "incident": {
+  "incident": {
+   "swarms": 10,
+   "Y1": 0.32000000000000006,
+   "exploit_share": 0.11622843154656452,
+   "joiner_share": 0.212014715891991,
+   "exploit_credit_left": 17.8,
+   "Y3": 0.0,
+   "seeds_removed": 0.0,
+   "live_removed": 0.0,
+   "honest_removed": 0.0,
+   "audits": 0.0,
+   "seed_a_gone_before_reminder": 0.0
+  },
+  "collective": {
+   "swarms": 10,
+   "Y1": 0.32,
+   "exploit_share": 0.5914017578531309,
+   "joiner_share": 0.7131584428643252,
+   "exploit_credit_left": 21.2,
+   "Y3": 1.0,
+   "seeds_removed": 0.0,
+   "live_removed": 0.0,
+   "honest_removed": 0.0,
+   "audits": 0.0,
+   "seed_a_gone_before_reminder": 0.0
+  },
+  "collective_minus_incident": {
+   "Y1": {
+    "outcome": "Y1",
+    "mean_a": 0.32,
+    "mean_b": 0.32000000000000006,
+    "n_a": 10.0,
+    "n_b": 10.0,
+    "diff": -5.551115123125783e-17,
+    "lo": -0.18,
+    "hi": 0.18,
+    "p": 1.0
+   },
+   "Y3": {
+    "outcome": "Y3",
+    "mean_a": 1.0,
+    "mean_b": 0.0,
+    "n_a": 10.0,
+    "n_b": 10.0,
+    "diff": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "p": 9.999000099990002e-05
+   },
+   "Y4": {
+    "outcome": "Y4",
+    "mean_a": 1.0,
+    "mean_b": 0.0,
+    "n_a": 10.0,
+    "n_b": 10.0,
+    "diff": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "p": 9.999000099990002e-05
+   },
+   "exploit_share": {
+    "outcome": "exploit_share",
+    "mean_a": 0.5914017578531309,
+    "mean_b": 0.11622843154656452,
+    "n_a": 10.0,
+    "n_b": 10.0,
+    "diff": 0.47517332630656633,
+    "lo": 0.3010359575059583,
+    "hi": 0.6221310202987951,
+    "p": 0.00029997000299970003
+   }
+  }
+ }
+}

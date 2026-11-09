@@ -1,0 +1,97 @@
+{
+ "n_items": 150,
+ "label_counts": {
+  "opus": {
+   "promote": 7,
+   "other": 41,
+   "test_complaint": 59,
+   "call_out": 43
+  },
+  "sonnet": {
+   "promote": 8,
+   "other": 43,
+   "test_complaint": 60,
+   "call_out": 39
+  },
+  "v2": {
+   "promote": 17,
+   "other": 40,
+   "test_complaint": 47,
+   "call_out": 46
+  },
+  "v1": {
+   "test_complaint": 52,
+   "other": 43,
+   "call_out": 55
+  },
+  "keyword": {
+   "other": 117,
+   "promote": 9,
+   "call_out": 24
+  },
+  "names": {
+   "other": 122,
+   "call_out": 28
+  }
+ },
+ "against": {
+  "opus": {
+   "v2": {
+    "n": 150,
+    "agreement": 0.86,
+    "kappa": 0.8030018761726079,
+    "call_out_kappa": 0.8562912497338726
+   },
+   "v1": {
+    "n": 150,
+    "agreement": 0.7466666666666667,
+    "kappa": 0.6275483533716676,
+    "call_out_kappa": 0.6088264794383149
+   },
+   "keyword": {
+    "n": 150,
+    "agreement": 0.36,
+    "kappa": 0.13294797687861268,
+    "call_out_kappa": 0.22990232907588282
+   },
+   "names": {
+    "n": 150,
+    "agreement": 0.4533333333333333,
+    "kappa": 0.2451209034000245,
+    "call_out_kappa": 0.6906090754671198
+   }
+  },
+  "sonnet": {
+   "v2": {
+    "n": 150,
+    "agreement": 0.8466666666666667,
+    "kappa": 0.7847785402370555,
+    "call_out_kappa": 0.8526522593320235
+   },
+   "v1": {
+    "n": 150,
+    "agreement": 0.74,
+    "kappa": 0.6197842194202522,
+    "call_out_kappa": 0.6024464831804281
+   },
+   "keyword": {
+    "n": 150,
+    "agreement": 0.35333333333333333,
+    "kappa": 0.11609258246765077,
+    "call_out_kappa": 0.1884402216943785
+   },
+   "names": {
+    "n": 150,
+    "agreement": 0.46,
+    "kappa": 0.248236604380646,
+    "call_out_kappa": 0.7139588100686499
+   }
+  }
+ },
+ "between_coders": {
+  "n": 150,
+  "agreement": 0.9133333333333333,
+  "kappa": 0.8739006725297465,
+  "call_out_kappa": 0.8658618376928235
+ }
+}

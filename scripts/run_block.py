@@ -51,6 +51,10 @@ def parse() -> argparse.Namespace:
     p.add_argument("--no-debrief", action="store_true")
     p.add_argument("--no-seeds", action="store_true", help="control: scripted cheaters stay idle")
     p.add_argument("--peer-vote", action="store_true", help="exploratory arm: agents can flag and expel peers")
+    p.add_argument("--random-audits", type=int, default=0,
+                   help="tier 1 arm: organizers audit N random agents at the end of each round")
+    p.add_argument("--scripted-reporter", action="store_true",
+                   help="tier 1 arm: one scripted agent reports trick posts, taking one live slot")
     p.add_argument("--tag", default="")
     return p.parse_args()
 
@@ -72,9 +76,15 @@ async def main() -> None:
     root = ROOT / ("runs_mock" if a.provider == "mock" else "runs") / a.block
     root.mkdir(parents=True, exist_ok=True)
     cfg = RunConfig(instruct_report=a.instruct_report, no_rule=a.no_rule, debrief=not a.no_debrief,
-                    seeds_active=not a.no_seeds, peer_vote=a.peer_vote)
+                    seeds_active=not a.no_seeds, peer_vote=a.peer_vote, random_audits=a.random_audits,
+                    scripted_reporter=a.scripted_reporter)
     if a.peer_vote:
         cfg.prompt_version = "v1-vote"
+    if a.random_audits:
+        cfg.prompt_version = "v1-random-audit"
+    if a.scripted_reporter:
+        cfg.prompt_version = "v1-reporter"
+        cfg.n_live -= 1  # keeps 13 agents
     if a.rounds:
         cfg.rounds = a.rounds
     schedule = make_schedule(build_plan(a), a.master_seed)

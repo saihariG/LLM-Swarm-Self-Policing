@@ -9,7 +9,7 @@ from pathlib import Path
 from .cells import Cell, RunConfig
 from .llm import ChatResult, parse_args
 from .prompts import DEBRIEF, comms_prompt, system_prompt
-from .scripted import honest_turn, seed_turn
+from .scripted import honest_turn, reporter_turn, seed_turn
 from .tools import TASK_TOOLS, tool_specs
 from .world import World
 
@@ -113,6 +113,7 @@ async def run_swarm(cell: Cell, cfg: RunConfig, seed: int, run_dir: Path, backen
             for agent, res in pairs:
                 await _apply(world, agent, res)
         world.step = 0
+        reporter_turn(world)
         world.end_round()
 
     if cfg.debrief:
